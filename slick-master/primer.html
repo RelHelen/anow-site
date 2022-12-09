@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" href="css/style.css">
+    <style>
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="advision">
+        <div class="container">
+            <div class="advision-inner">
+                <h1>галлерея</h1>
+                    <div id="multiple-items" class="multiple-items">
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863283/1000-25455a0ffd15790d2b263432e9e6b92d.jpg" alt=""></div>
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863350/1000-f46f00cf90c08be94ffb90a2e59d7748.jpg" alt=""></div>
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863353/1000-75a65e2703cf75234703ab55f9fa8132.jpg" alt=""></div>
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863283/1000-25455a0ffd15790d2b263432e9e6b92d.jpg" alt=""></div>
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863350/1000-f46f00cf90c08be94ffb90a2e59d7748.jpg" alt=""></div>
+                        <div><img src="https://static-cdn5.vigbo.tech/u3388/98818/blog/6273278/5911224/77863353/1000-75a65e2703cf75234703ab55f9fa8132.jpg" alt=""></div>
+                    </div>
+            </div>
+        </div>
+    </section>   
+ 
+    
+<script type="text/javascript" src="slick/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="slick/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+$('.multiple-items').slick({
+	dots: true,
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+</script>	
+</body>
+</html>
